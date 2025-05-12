@@ -24,7 +24,13 @@ jobs:
         run: | 
           pytest
       
-      - name: Run Behave
+      - name: Run Spanish Scenarios
         run: |
-          behave
+          behave --tags "@spanish"
+      
+      - name: Run English Scenarios
+        run: |
+          behave --tags "@english"
+        
+
     

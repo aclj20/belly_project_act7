@@ -1,11 +1,4 @@
-from src.belly import Belly
-
-def before_scenario(context, scenario):
-    context.belly = Belly()
-
-"""
 # features/environment.py
-
 from unittest.mock import MagicMock
 from src.belly import Belly
 import time
@@ -34,4 +27,4 @@ def after_scenario(context, scenario):
     # Limpieza al final del escenario
     pass
 
-"""
+
